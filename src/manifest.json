@@ -1,0 +1,13 @@
+{
+	"manifest_version": 1,
+	"id": "com.pansinm.mindmap",
+	"app_min_version": "2.8",
+	"version": "1.0.0",
+	"name": "mindmap",
+	"description": "mindmap plugin for joplin",
+	"author": "pansinm&lt;pansinm@foxmail.com&gt;",
+	"homepage_url": "https://github.com/pansinm/joplin-mindmap",
+	"repository_url": "https://github.com/pansinm/joplin-mindmap",
+	"keywords": [],
+	"categories": []
+}
