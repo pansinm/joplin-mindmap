@@ -86,7 +86,7 @@ function RootToSvg() {
     }" height="${rect.height}" style="fill: #00aaff;"></rect>
       <text x="${left + 15}" y="${
       top + 35
-    }" text-anchor="start" align="top" anchor="start" font-family="微软雅黑" font-size="25px" font-weight="normal" fill="#ffffff">
+    }" text-anchor="start" align="top" anchor="start" font-family="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" font-size="25px" font-weight="normal" fill="#ffffff">
         ${nodeObj.topic}
       </text>
   </g>`
@@ -154,7 +154,7 @@ function PrimaryToSvg(primaryNode) {
         }" rx="5px" ry="5px" width="${tagRect.width}" height="${
           tagRect.height
         }" style="fill: #d6f0f8;"></rect>
-        <text font-family="微软雅黑" font-size="12px"  fill="#276f86" x="${
+        <text font-family="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" font-size="12px"  fill="#276f86" x="${
           topicOffsetLeft + 4
         }" y="${topicOffsetTop + 4 + 12}">${tag.innerHTML}</text>`;
       }
@@ -173,8 +173,8 @@ function PrimaryToSvg(primaryNode) {
     svg += `<g id="${nodeObj.id}">
       ${border}
       ${backgroundColor}
-      <foreignObject  x="${topicOffsetLeft}" y="${topicOffsetTopTop}" width="${tpcStyle.width}" height="${tpcStyle.height}">
-      <p xmlns="http://www.w3.org/1999/xhtml" style="padding:0;margin:0;font-family:微软雅黑;font-size:${tpcStyle.fontSize};font-weight:${tpcStyle.fontWeight};color:${tpcStyle.color}">
+      <foreignObject  x="${topicOffsetLeft}" y="${topicOffsetTopTop}" width="${tpcStyle.width}" height="${tpcRect.height}">
+      <p xmlns="http://www.w3.org/1999/xhtml" style="padding:0;margin:0;font-family:-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;font-size:${tpcStyle.fontSize};font-weight:${tpcStyle.fontWeight};color:${tpcStyle.color}">
         ${nodeObj.topic}
         ${icons}
       </p>
