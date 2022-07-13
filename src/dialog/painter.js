@@ -1,6 +1,5 @@
 /**
- * copy  https://github.com/ssshooter/mind-elixir-core/blob/master/painter/index.foreignObject.js
- * and export generateSvg
+ * @see https://github.com/ssshooter/mind-elixir-core/blob/master/painter/index.foreignObject.js
  */
 
 import Canvg from "canvg";
